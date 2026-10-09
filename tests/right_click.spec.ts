@@ -67,7 +67,7 @@ await page.getByTestId('sorted-note').click();
 // }
 });
 
-test.only('input_generator',async({page})=>{
+test('input_generator',async({page})=>{
 
 await page.emulateMedia({colorScheme:'dark'});
 
