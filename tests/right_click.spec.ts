@@ -77,6 +77,7 @@ await page.getByText('placeholder').fill('hello how are you')
 await page.getByText('Read only').check();
 await page.getByText('Read only').uncheck();
 
+
 await page.locator('[class="btn btn-primary"]').click();
 await expect(page.locator('body')).toContainText('About the HTML Number Input Generator');
 
